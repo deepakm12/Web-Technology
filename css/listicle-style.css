@@ -1,0 +1,174 @@
+body {
+    margin: 0;
+    text-align: justify;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+img {
+    width: 100%;
+}
+
+
+/* Header for listicle.html*/
+
+.headerlisticle {
+    background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(../images/header.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* Header for my-list.html*/
+
+.myheader {
+    background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(../images/myheader2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* Title text */
+
+.title-text {
+    font-family: "Roboto Slab", serif;
+    color: white;
+    font-size: 36px;
+    font-weight: normal;
+    width: 780px;
+    text-align: center;
+}
+
+
+/* Profile block */
+
+.profile-block {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+/* Profile Image */
+
+.profile-block-pic {
+    background-image: url("../images/vrk.png");
+    background-size: cover;
+    background-position: center;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    margin-top: -50px;
+    border: 1px solid white;
+}
+
+
+/* My Profile Image */
+
+.my-profile-block-pic {
+    background-image: url("../images/writer.png");
+    background-size: cover;
+    background-position: center;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    margin-top: -50px;
+}
+
+
+/* Profile text*/
+
+.profile-text {
+    text-align: center;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 18px;
+    color: rgb(51, 51, 51);
+    line-height: 24px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #e6e6e6;
+}
+
+
+/* Container content of listicle */
+
+.listicle {
+    width: 66.67%;
+    position: relative;
+}
+
+
+/* Header line */
+
+.item-header {
+    font-family: "Roboto Slab", serif;
+    font-size: 36px;
+    font-weight: bold;
+    color: rgb(51, 51, 51);
+}
+
+
+/* Spacing given */
+
+.space-given {
+    height: 20px;
+}
+
+
+/* Container for numbering */
+
+.container {
+    position: absolute;
+    right: 100%;
+}
+
+
+/* Item numbering */
+
+.numbering {
+    position: absolute;
+    right: 40px;
+    font-family: "Roboto Slab", serif;
+    font-size: 36px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.25);
+}
+
+
+/* Item text */
+
+.text {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 18px;
+    line-height: 32px;
+    accent-color: rgb(51, 51, 51);
+    margin: 0px;
+}
+
+
+/* Item box */
+
+.item {
+    padding: 60px 0px;
+}
+
+
+/* Underline profile */
+
+.sty1 {
+    border-bottom: 1px solid blue;
+    text-decoration: none;
+}
