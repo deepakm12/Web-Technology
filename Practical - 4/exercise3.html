@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="HTML, CSS, JS" />
+    <meta name="description" name="Practical - 4" content="Deepak Mahto's Web Technology Practical - 4" />
+    <meta name="author" content="Deepak Mahto" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercise #3: Changing images</title>
+    <script>
+        function changeImage() {
+            var s = document.getElementById("country");
+            var img = document.getElementById("img");
+            img.src = "images/" + s.options[s.selectedIndex].value;
+            img.alt = s.options[s.selectedIndex].text;
+        }
+    </script>
+</head>
+
+<body>
+    <form name="form">
+        <select name="country" id="country" onchange="changeImage();">
+            <option value="no_image.png">Select</option>
+            <option value="flag_IN.png">INDIA</option>
+            <option value="flag_USA.png">USA</option>
+            <option value="flag_AF.png">AFRICA</option>
+            <option value="flag_IS.png">ISRAEL</option>
+        </select>
+    </form>
+    <img id="img" src="images/no_image.png" style="border: 1px solid black" alt="No image selected" />
+</body>
+
+</html>

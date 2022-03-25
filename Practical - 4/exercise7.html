@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="HTML, CSS, JS" />
+    <meta name="description" name="Practical - 4" content="Deepak Mahto's Web Technology Practical - 4" />
+    <meta name="author" content="Deepak Mahto" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercise #7: Simple playlist</title>
+    <link rel="stylesheet" href="exercise7.css">
+    <script>
+        function handleButtonClick() {
+            var textInput = document.getElementById("songTextInput");
+            var songName = textInput.value;
+
+            if (songName == "") {
+                alert("Please enter a song");
+            } else {
+                var li = document.createElement("li");
+                li.innerHTML = songName;
+                var ul = document.getElementById("playlist");
+                ul.appendChild(li);
+            }
+        }
+
+        window.onload = function() {
+            document.getElementById("addButton").onclick = handleButtonClick;
+
+        }
+    </script>
+</head>
+
+<body>
+
+    <form>
+        <input type="text" id="songTextInput" size="40" placeholder="Song name">
+        <input type="button" id="addButton" value="Add Song">
+    </form>
+
+    <ul id="playlist">
+    </ul>
+
+</body>
+
+</html>
