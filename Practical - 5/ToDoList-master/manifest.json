@@ -1,0 +1,25 @@
+{
+    "name": "Todo",
+    "version": "1.0",
+    "manifest_version": 2,
+    "permissions": [
+        "storage"
+    ],
+    "description": "A simple todo list as a chrome extension",
+    "incognito": "split",
+    "chrome_url_overrides": {
+        "newtab": "index.html"
+    },
+    "icons": {
+        "8": "images/icon8.png",
+        "16": "images/icon16.png",
+        "32": "images/icon32.png",
+        "64": "images/icon64.png",
+        "128": "images/icon128.png"
+    },
+    "browser_action": {
+        "default_icon": "images/icon128.png",
+        "default_popup": "index.html",
+        "default_title": "Todo"
+    }
+}

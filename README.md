@@ -1,5 +1,5 @@
-# Web-Technology
-List of Practicals
+# Web-Technology 
+List of Practicals CS 452
 
 
 🎯 [Practical - 1](https://github.com/deepakm12/Resume)
@@ -12,3 +12,6 @@ List of Practicals
 
 
 🎯 [Practical - 4](/Practical%20-%204/)
+
+
+🎯 [Practical - 5](/Practical%20-%205/)
