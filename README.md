@@ -21,3 +21,6 @@ List of Practicals CS 452
 
 
 🎯 [Practical - 7](/Practical%20-%207/)
+
+
+🎯 [Practical - 8](/Practical%20-%208/)
